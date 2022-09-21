@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono:400");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Mono", monospace;
+}
+
+.mainText img {
+  text-align: center;
+  height: 5vh;
+  object-fit: contain;
+}
+
+.mainText {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText .mainTitle {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-stroke: 2px #ffffff;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  transition: all 0.4s linear;
+  opacity: 0.5;
+}
+
+.mainTitle:hover {
+  opacity: 1;
+  -webkit-text-fill-color: white;
+}
+
+.mainText .subTitle {
+  position: relative;
+}
+
+.mainText img {
+  height: 5vh;
+  object-fit: contain;
+}
+
+.modules {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  min-width: 100%;
+  object-fit: cover;
+  margin-top: 2vh;
+}
+
+.moduleName {
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  transition: all 0.4s linear;
+  opacity: 0.5;
+}
+
+
+.moduleDescription {
+  color: #fff;
+  position: relative;
+  margin-top: 1vh;
+}
+
+.moduleName:hover {
+  opacity: 1;
+  -webkit-text-fill-color: white;
+}
+
+
+.module {
+  display: flex;
+  flex-direction: column;
+  min-height: 25vh;
+  width: 100%;
+}
+
+.module-top {
+  display: flex;
+}
+
+.collapser {
+  display: none;
+}
+
+.collapsing-button{
+  border: 1px solid white;
+  background-color: transparent;
+  color: #fff;
+}
+
+.collapsing-button:hover{
+  background-color: #fff;
+  color: #000;
+  transition-duration: 500ms;
+}
+
+.expander {
+  display: flex;
+}
+
+.expander-button{
+  border: 1px solid white;
+  background-color: transparent;
+  color: #fff;
+}
+
+.expander-button:hover{
+  background-color: #fff;
+  color: #000;
+  transition-duration: 500ms;
+}
+
+.subevents {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subevent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.subeventLogo img {
+  width: 10vh;
+}
+
+.subeventName {
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  transition: all 0.4s linear;
+  opacity: 0.5;
+}
+
+.subeventName:hover {
+  opacity: 1;
+  -webkit-text-fill-color: white;
+}
+
+.subeventDescription {
+  color: #fff;
+  position: relative;
+}
+
+.subevents-visible {
+  display: flex;
+  animation-name: expandOut;
+  animation-delay: 0;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+.module-logo-hidden{
+  display: none;
+}
+
+.expander-hidden{
+  display: none;
+}
+
+.collapser-visible{
+  display: flex;
+  animation-name: fadeIn;
+  animation-delay: 0;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}

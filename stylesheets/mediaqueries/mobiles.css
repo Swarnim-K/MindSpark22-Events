@@ -1,0 +1,123 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .mainText .mainTitle {
+        text-align: center;
+        font-size: 8vh;
+        letter-spacing: 1.5vh;
+    }
+
+    .mainText .subTitle {
+        text-align: center;
+        padding: 1vh;
+        font-size: 2vh;
+    }
+
+    .mainText img {
+        height: 3vh;
+        margin-bottom: 1vh;
+    }
+
+    .moduleName {
+        text-align: center;
+        font-size: 7vh;
+        letter-spacing: 1.5vh;
+        animation: glow 2500ms linear infinite 2000ms;
+    }
+
+    .moduleDescription {
+        text-align: center;
+        font-size: 1.5vh;
+    }
+
+    .module-top {
+        flex-direction: column;
+    }
+
+    .module-logo {
+        display: none;
+    }
+
+    .expander {
+        margin-top: 4vh;
+        justify-content: center;
+    }
+
+    .expander-button {
+        text-align: center;
+        font-size: 1.2vh;
+        width: 30%;
+    }
+
+    .collapser {
+        margin-top: 4vh;
+        justify-content: center;
+        margin-bottom: 4vh;
+    }
+
+    .collapsing-button {
+        text-align: center;
+        font-size: 1.2vh;
+        width: 30%;
+    }
+
+    .subevent{
+        margin: 0 10% 10% 10%;
+        border: 1px solid white;
+        padding: 3vh;
+    }
+
+    .subeventName {
+        font-size: 4vh;
+        letter-spacing: 1vh;
+        animation: glow 2500ms linear infinite 2000ms;
+    }
+
+    .subeventDescription {
+        font-size: 1.5vh;
+    }
+
+    .rotating-text {
+        font: normal 20px/30px Montserrat, sans-serif;
+        color: #999;
+    }
+        
+    .rotating-text p {
+        height: 30px;
+        float: left;
+        margin-right: 0.3em;
+    }
+    
+    .rotating-text b {
+        float: left;
+        overflow: hidden;
+        position: relative;
+        height: 30px;
+    }
+    
+    .rotating-text .innerrotating-text {
+        display: inline-block;
+        color: #fff;
+        position: relative;
+        white-space: nowrap;
+        top: 0;
+        left: 0;
+        animation:move 5s;
+        animation-iteration-count:infinite;
+        animation-delay:1s;
+    }
+    
+    @keyframes move {
+        0%  { top: 0px; }
+        20% { top: -30px; }
+        40% { top: -60px; }
+        60% { top: -90px; }
+        80% { top: -120px; }
+    }
+
+    @keyframes glow {
+        40% {
+            -webkit-text-fill-color: #fff;
+        }
+    }
+}

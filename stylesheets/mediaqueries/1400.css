@@ -1,0 +1,131 @@
+@media (min-width: 1400px) {  
+    
+    .mainText .mainTitle {
+        font-size: 30vh;
+        letter-spacing: 3vh;
+    }
+
+    .mainText img {
+        height: 5vh;
+        margin-bottom: 1vh;
+    }
+
+    .modules {
+        display: flex;
+    }
+
+    .module {
+        margin-bottom: 5%;
+    }
+
+    .module-top{
+        height: 80%;
+    }
+
+    .moduleheader {
+        width: 60%;
+    }
+
+    .moduleName {
+        text-align: center;
+        font-size: 15vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-stroke: 2.5px #ffffff;
+    }
+
+    .moduleDescription {
+        text-align: center;
+        font-size: 2.5vh;
+        letter-spacing: 0.3vh;
+    }
+
+    .module-right {
+        text-align: center;
+        width: 30%;
+        height: 80%;
+      }
+
+    .collapser {
+        margin-top: 4vh;
+        justify-content: center;
+    }
+
+    .collapsing-button {
+        width: 30%;
+    }
+
+    .expander {
+        margin-top: 4vh;
+        justify-content: center;
+    }
+
+    .expander-button {
+        width: 40%;
+    }
+
+    .module-logo img {
+        width: 40%;
+    }
+
+    .subevent{
+        margin-bottom: 10%;
+        border: 1px solid white;
+        padding: 3vh;
+    }
+
+
+    .subeventName {
+        font-size: 8vh;
+        letter-spacing: 1vh;
+    }
+
+    .subeventDescription {
+        padding-left: 6vh;
+        padding-right: 6vh;
+        font-size: 2vh;
+    }
+
+    .subeventLogo img{
+        width: 15vh
+    }
+
+    .rotating-text {
+        /* padding: 2em 5em; */
+        font: normal 40px/50px Montserrat, sans-serif;
+        color: #999;
+    }
+        
+    .rotating-text p {
+        height: 50px;
+        float: left;
+        margin-right: 0.3em;
+    }
+    
+    .rotating-text b {
+        float: left;
+        overflow: hidden;
+        position: relative;
+        height: 50px;
+    }
+    
+    .rotating-text .innerrotating-text {
+        display: inline-block;
+        color: #fff;
+        position: relative;
+        white-space: nowrap;
+        top: 0;
+        left: 0;
+        animation:move 5s;
+        animation-iteration-count:infinite;
+        animation-delay:1s;
+    }
+    
+    @keyframes move {
+        0%  { top: 0px; }
+        20% { top: -50px; }
+        40% { top: -100px; }
+        60% { top: -150px; }
+        80% { top: -200px; }
+    }
+
+}
