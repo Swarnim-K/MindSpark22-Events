@@ -16,6 +16,8 @@
         text-align: center;
         font-size: 13vh;
         letter-spacing: 1.5vh;
+        -webkit-text-fill-color: white;
+        opacity: 1;
     }
 
     .moduleDescription {
@@ -40,6 +42,10 @@
         text-align: center;
         font-size: 2vh;
         width: 30%;
+        animation-name: scaleandglow;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
 
     .collapser {
@@ -60,6 +66,10 @@
         padding: 3vh;
         width: 50%;
         height: 50%;
+        animation-name: scaleandmove;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
 
     .subeventName {
@@ -101,6 +111,14 @@
         animation-iteration-count:infinite;
         animation-delay:1s;
     }
+
+    .stars-md:before, .stars-md:after {
+        display: none;
+    }
+
+    .stars-lg:before, .stars-lg:after {
+        display: none;
+    }
     
     @keyframes move {
         0%  { top: 0px; }
@@ -110,5 +128,26 @@
         80% { top: -160px; }
     }
 
+    @keyframes scaleandmove {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            transform: scale(1.1);
+        }
+        
+    }
+
+    @keyframes scaleandglow {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: #fff;
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
 
 }

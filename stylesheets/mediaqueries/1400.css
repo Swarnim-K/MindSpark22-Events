@@ -69,8 +69,8 @@
 
     .subevent{
         margin-bottom: 10%;
-        border: 1px solid white;
         padding: 3vh;
+        height: max-content;
     }
 
 

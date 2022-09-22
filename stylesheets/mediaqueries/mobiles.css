@@ -22,7 +22,8 @@
         text-align: center;
         font-size: 7vh;
         letter-spacing: 1.5vh;
-        animation: glow 2500ms linear infinite 2000ms;
+        -webkit-text-fill-color: white;
+        opacity: 1;
     }
 
     .moduleDescription {
@@ -47,6 +48,10 @@
         text-align: center;
         font-size: 1.2vh;
         width: 30%;
+        animation-name: scaleandglow;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
 
     .collapser {
@@ -65,12 +70,15 @@
         margin: 0 10% 10% 10%;
         border: 1px solid white;
         padding: 3vh;
+        animation-name: scaleandmove;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
 
     .subeventName {
         font-size: 4vh;
         letter-spacing: 1vh;
-        animation: glow 2500ms linear infinite 2000ms;
     }
 
     .subeventDescription {
@@ -106,6 +114,14 @@
         animation-iteration-count:infinite;
         animation-delay:1s;
     }
+
+    .stars-md:before, .stars-md:after {
+        display: none;
+    }
+
+    .stars-lg:before, .stars-lg:after {
+        display: none;
+    }
     
     @keyframes move {
         0%  { top: 0px; }
@@ -115,9 +131,26 @@
         80% { top: -120px; }
     }
 
-    @keyframes glow {
-        40% {
-            -webkit-text-fill-color: #fff;
+    @keyframes scaleandmove {
+        0% {
+            transform: scale(0.9);
         }
+        100% {
+            transform: scale(1.1);
+        }
+        
     }
+
+    @keyframes scaleandglow {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: #fff;
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+
 }

@@ -99,6 +99,11 @@
         animation-iteration-count:infinite;
         animation-delay:1s;
     }
+
+
+    .stars-lg:before, .stars-lg:after {
+        display: none;
+    }
     
     @keyframes move {
         0%  { top: 0px; }
