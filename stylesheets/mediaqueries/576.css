@@ -1,3 +1,15 @@
+:root{
+    --amuzia-color: #8758FF;
+    --dynamus-color: #3FA796;
+    --illuminati-color: #D36B00;
+    --ingenia-color: #5CB8E4;
+    --interpreta-color: #42855B;
+    --logica-color: #FFC23C;
+    --robotica-color: #2666CF;
+    --structura-color: #D3ECA7;
+    --substantia-color: #FA2FB5;
+    --voltus-color: #2666CF;
+}
 
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {  
@@ -10,14 +22,6 @@
     .mainText img {
         height: 4vh;
         margin-bottom: 0.5vh;
-    }
-
-    .moduleName {
-        text-align: center;
-        font-size: 13vh;
-        letter-spacing: 1.5vh;
-        -webkit-text-fill-color: white;
-        opacity: 1;
     }
 
     .moduleDescription {
@@ -36,16 +40,6 @@
     .expander {
         margin-top: 4vh;
         justify-content: center;
-    }
-
-    .expander-button {
-        text-align: center;
-        font-size: 2vh;
-        width: 30%;
-        animation-name: scaleandglow;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
     }
 
     .collapser {
@@ -113,28 +107,6 @@
         40% { top: -80px; }
         60% { top: -120px; }
         80% { top: -160px; }
-    }
-
-    @keyframes scaleandmove {
-        0% {
-            transform: scale(0.9);
-        }
-        100% {
-            transform: scale(1.1);
-        }
-        
-    }
-
-    @keyframes scaleandglow {
-        0% {
-            transform: scale(0.9);
-        }
-        100% {
-            background-color: #fff;
-            color: #000;
-            transform: scale(1.1);
-        }
-        
     }
 
     /* Subevents Border Animation */
@@ -250,5 +222,315 @@
        }
     }
     
+
+    #amuzia .moduleName {
+        text-align: center;
+        font-size: 13vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-fill-color: var(--amuzia-color);
+        opacity: 1;
+    }
+
+    #amuzia .expander-button {
+        text-align: center;
+        font-size: 2vh;
+        width: 30%;
+        animation-name: scaleandglow-amuzia;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-amuzia {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--amuzia-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #dynamus .moduleName {
+        text-align: center;
+        font-size: 13vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-fill-color: var(--dynamus-color);
+        opacity: 1;
+    }
+
+    #dynamus .expander-button {
+        text-align: center;
+        font-size: 2vh;
+        width: 30%;
+        animation-name: scaleandglow-dynamus;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-dynamus {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--dynamus-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #illuminati .moduleName {
+        text-align: center;
+        font-size: 13vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-fill-color: var(--illuminati-color);
+        opacity: 1;
+    }
+
+    #illuminati .expander-button {
+        text-align: center;
+        font-size: 2vh;
+        width: 30%;
+        animation-name: scaleandglow-illuminati;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-illuminati {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--illuminati-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #ingenia .moduleName {
+        text-align: center;
+        font-size: 13vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-fill-color: var(--ingenia-color);
+        opacity: 1;
+    }
+
+    #ingenia .expander-button {
+        text-align: center;
+        font-size: 2vh;
+        width: 30%;
+        animation-name: scaleandglow-ingenia;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-ingenia {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--ingenia-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #interpreta .moduleName {
+        text-align: center;
+        font-size: 13vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-fill-color: var(--interpreta-color);
+        opacity: 1;
+    }
+
+    #interpreta .expander-button {
+        text-align: center;
+        font-size: 2vh;
+        width: 30%;
+        animation-name: scaleandglow-interpreta;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-interpreta {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--interpreta-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #logica .moduleName {
+        text-align: center;
+        font-size: 13vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-fill-color: var(--logica-color);
+        opacity: 1;
+    }
+
+    #logica .expander-button {
+        text-align: center;
+        font-size: 2vh;
+        width: 30%;
+        animation-name: scaleandglow-logica;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-logica {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--logica-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #robotica .moduleName {
+        text-align: center;
+        font-size: 13vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-fill-color: var(--robotica-color);
+        opacity: 1;
+    }
+
+    #robotica .expander-button {
+        text-align: center;
+        font-size: 2vh;
+        width: 30%;
+        animation-name: scaleandglow-robotica;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-robotica {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--robotica-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #structura .moduleName {
+        text-align: center;
+        font-size: 13vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-fill-color: var(--structura-color);
+        opacity: 1;
+    }
+
+    #structura .expander-button {
+        text-align: center;
+        font-size: 2vh;
+        width: 30%;
+        animation-name: scaleandglow-structura;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-structura {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--structura-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #substantia .moduleName {
+        text-align: center;
+        font-size: 13vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-fill-color: var(--substantia-color);
+        opacity: 1;
+    }
+
+    #substantia .expander-button {
+        text-align: center;
+        font-size: 2vh;
+        width: 30%;
+        animation-name: scaleandglow-substantia;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-substantia {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--substantia-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #voltus .moduleName {
+        text-align: center;
+        font-size: 13vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-fill-color: var(--voltus-color);
+        opacity: 1;
+    }
+
+    #voltus .expander-button {
+        text-align: center;
+        font-size: 2vh;
+        width: 30%;
+        animation-name: scaleandglow-voltus;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-voltus {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--voltus-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+
 
 }

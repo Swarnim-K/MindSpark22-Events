@@ -1,3 +1,16 @@
+:root{
+    --amuzia-color: #8758FF;
+    --dynamus-color: #3FA796;
+    --illuminati-color: #D36B00;
+    --ingenia-color: #5CB8E4;
+    --interpreta-color: #42855B;
+    --logica-color: #FFC23C;
+    --robotica-color: #2666CF;
+    --structura-color: #D3ECA7;
+    --substantia-color: #FA2FB5;
+    --voltus-color: #2666CF;
+}
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
@@ -22,8 +35,6 @@
         text-align: center;
         font-size: 7vh;
         letter-spacing: 1.5vh;
-        -webkit-text-fill-color: white;
-        opacity: 1;
     }
 
     .moduleDescription {
@@ -48,10 +59,6 @@
         text-align: center;
         font-size: 1.2vh;
         width: 30%;
-        animation-name: scaleandglow;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
     }
 
     .collapser {
@@ -255,5 +262,254 @@
           transform: rotate(360deg);
         }
      }
+
+    #amuzia .moduleName {
+        -webkit-text-fill-color: var(--amuzia-color);
+        opacity: 1;
+    }
+
+    #amuzia .expander-button {
+        animation-name: scaleandglow-amuzia;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-amuzia {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--amuzia-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #dynamus .moduleName {
+        -webkit-text-fill-color: var(--dynamus-color);
+        opacity: 1;
+    }
+
+    #dynamus .expander-button {
+        animation-name: scaleandglow-dynamus;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-dynamus {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--dynamus-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #illuminati .moduleName {
+        -webkit-text-fill-color: var(--illuminati-color);
+        opacity: 1;
+    }
+
+    #illuminati .expander-button {
+        animation-name: scaleandglow-illuminati;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-illuminati {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--illuminati-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #ingenia .moduleName {
+        -webkit-text-fill-color: var(--ingenia-color);
+        opacity: 1;
+    }
+
+    #ingenia .expander-button {
+        animation-name: scaleandglow-ingenia;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-ingenia {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--ingenia-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #interpreta .moduleName {
+        -webkit-text-fill-color: var(--interpreta-color);
+        opacity: 1;
+    }
+
+    #interpreta .expander-button {
+        animation-name: scaleandglow-interpreta;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-interpreta {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--interpreta-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #logica .moduleName {
+        -webkit-text-fill-color: var(--logica-color);
+        opacity: 1;
+    }
+
+    #logica .expander-button {
+        animation-name: scaleandglow-logica;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-logica {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--logica-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #robotica .moduleName {
+        -webkit-text-fill-color: var(--robotica-color);
+        opacity: 1;
+    }
+
+    #robotica .expander-button {
+        animation-name: scaleandglow-robotica;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-robotica {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--robotica-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #structura .moduleName {
+        -webkit-text-fill-color: var(--structura-color);
+        opacity: 1;
+    }
+
+    #structura .expander-button {
+        animation-name: scaleandglow-structura;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-structura {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--structura-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #substantia .moduleName {
+        -webkit-text-fill-color: var(--substantia-color);
+        opacity: 1;
+    }
+
+    #substantia .expander-button {
+        animation-name: scaleandglow-substantia;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-substantia {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--substantia-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #voltus .moduleName {
+        -webkit-text-fill-color: var(--voltus-color);
+        opacity: 1;
+    }
+
+    #voltus .expander-button {
+        animation-name: scaleandglow-voltus;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-voltus {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--voltus-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
 
 }

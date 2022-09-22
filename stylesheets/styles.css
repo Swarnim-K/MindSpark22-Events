@@ -7,8 +7,12 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Fira Mono", monospace;
 }
+
+
 
 .mainText img {
   text-align: center;
@@ -109,13 +113,10 @@ body {
 }
 
 .collapsing-button{
-  border: 1px solid white;
   background-color: transparent;
-  color: #fff;
 }
 
 .collapsing-button:hover{
-  background-color: #fff;
   color: #000;
   transition-duration: 500ms;
   transform: scale(1.1);
@@ -128,11 +129,9 @@ body {
 .expander-button{
   border: 1px solid white;
   background-color: transparent;
-  color: #fff;
 }
 
 .expander-button:hover{
-  background-color: #fff;
   color: #000;
   transition-duration: 500ms;
   transform: scale(1.1);

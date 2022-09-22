@@ -1,0 +1,442 @@
+:root{
+    --amuzia-color: #8758FF;
+    --dynamus-color: #3FA796;
+    --illuminati-color: #D36B00;
+    --ingenia-color: #5CB8E4;
+    --interpreta-color: #42855B;
+    --logica-color: #FFC23C;
+    --robotica-color: #2666CF;
+    --structura-color: #D3ECA7;
+    --substantia-color: #FA2FB5;
+    --voltus-color: #2666CF;
+}
+
+#amuzia .moduleName:hover {
+    opacity: 1;
+    -webkit-text-fill-color: var(--amuzia-color);
+}
+
+#amuzia .moduleName {
+    color: var(--amuzia-color);
+    -webkit-text-stroke: 2px var(--amuzia-color);
+}
+
+#amuzia .moduleDescription {
+    color: var(--amuzia-color);
+}
+
+#amuzia .module-logo img {
+    filter: invert(53%) sepia(98%) saturate(4606%) hue-rotate(236deg) brightness(98%) contrast(106%);
+}
+
+#amuzia .expander-button{
+    border: 1px solid var(--amuzia-color);
+    color: var(--amuzia-color);
+}
+
+#amuzia .expander-button:hover{
+    background-color: var(--amuzia-color);
+    color: black;
+}
+
+#amuzia .collapsing-button{
+    border: 1px solid var(--amuzia-color);
+    color: var(--amuzia-color);
+}
+
+#amuzia .collapsing-button:hover{
+    background-color: var(--amuzia-color);
+    color: black;
+}
+
+#amuzia .subevent-border-animation span:first-child {
+    background: var(--amuzia-color);
+}
+
+#amuzia .subevent-border-animation span:last-child:after {
+    background: var(--amuzia-color);
+}
+
+#dynamus .moduleName:hover {
+    opacity: 1;
+    -webkit-text-fill-color: var(--dynamus-color);
+}
+
+#dynamus .moduleName {
+    color: var(--dynamus-color);
+    -webkit-text-stroke: 2px var(--dynamus-color);
+}
+
+#dynamus .moduleDescription {
+    color: var(--dynamus-color);
+}
+
+#dynamus .expander-button{
+    border: 1px solid var(--dynamus-color);
+    color: var(--dynamus-color);
+}
+
+#dynamus .expander-button:hover{
+    background-color: var(--dynamus-color);
+    color: black;
+}
+
+#dynamus .collapsing-button{
+    border: 1px solid var(--dynamus-color);
+    color: var(--dynamus-color);
+}
+
+#dynamus .collapsing-button:hover{
+    background-color: var(--dynamus-color);
+    color: black;
+}
+
+#dynamus .subevent-border-animation span:first-child {
+    background: var(--dynamus-color);
+}
+
+#dynamus .subevent-border-animation span:last-child:after {
+    background: var(--dynamus-color);
+}
+
+#illuminati .moduleName:hover {
+    opacity: 1;
+    -webkit-text-fill-color: var(--illuminati-color);
+}
+
+#illuminati .moduleName {
+    color: var(--illuminati-color);
+    -webkit-text-stroke: 2px var(--illuminati-color);
+}
+
+#illuminati .moduleDescription {
+    color: var(--illuminati-color);
+}
+
+#illuminati .expander-button{
+    border: 1px solid var(--illuminati-color);
+    color: var(--illuminati-color);
+}
+
+#illuminati .expander-button:hover{
+    background-color: var(--illuminati-color);
+    color: black;
+}
+
+#illuminati .collapsing-button{
+    border: 1px solid var(--illuminati-color);
+    color: var(--illuminati-color);
+}
+
+#illuminati .collapsing-button:hover{
+    background-color: var(--illuminati-color);
+    color: black;
+}
+
+#illuminati .subevent-border-animation span:first-child {
+    background: var(--illuminati-color);
+}
+
+#illuminati .subevent-border-animation span:last-child:after {
+    background: var(--illuminati-color);
+}
+
+#ingenia .moduleName:hover {
+    opacity: 1;
+    -webkit-text-fill-color: var(--ingenia-color);
+}
+
+#ingenia .moduleName {
+    color: var(--ingenia-color);
+    -webkit-text-stroke: 2px var(--ingenia-color);
+}
+
+#ingenia .moduleDescription {
+    color: var(--ingenia-color);
+}
+
+#ingenia .expander-button{
+    border: 1px solid var(--ingenia-color);
+    color: var(--ingenia-color);
+}
+
+#ingenia .expander-button:hover{
+    background-color: var(--ingenia-color);
+    color: black;
+}
+
+#ingenia .collapsing-button{
+    border: 1px solid var(--ingenia-color);
+    color: var(--ingenia-color);
+}
+
+#ingenia .collapsing-button:hover{
+    background-color: var(--ingenia-color);
+    color: black;
+}
+
+#ingenia .subevent-border-animation span:first-child {
+    background: var(--ingenia-color);
+}
+
+#ingenia .subevent-border-animation span:last-child:after {
+    background: var(--ingenia-color);
+}
+
+
+#interpreta .moduleName:hover {
+    opacity: 1;
+    -webkit-text-fill-color: var(--interpreta-color);
+}
+
+#interpreta .moduleName {
+    color: var(--interpreta-color);
+    -webkit-text-stroke: 2px var(--interpreta-color);
+}
+
+#interpreta .moduleDescription {
+    color: var(--interpreta-color);
+}
+
+#interpreta .expander-button{
+    border: 1px solid var(--interpreta-color);
+    color: var(--interpreta-color);
+}
+
+#interpreta .expander-button:hover{
+    background-color: var(--interpreta-color);
+    color: black;
+}
+
+#interpreta .collapsing-button{
+    border: 1px solid var(--interpreta-color);
+    color: var(--interpreta-color);
+}
+
+#interpreta .collapsing-button:hover{
+    background-color: var(--interpreta-color);
+    color: black;
+}
+
+#interpreta .subevent-border-animation span:first-child {
+    background: var(--interpreta-color);
+}
+
+#interpreta .subevent-border-animation span:last-child:after {
+    background: var(--interpreta-color);
+}
+
+
+#logica .moduleName:hover {
+    opacity: 1;
+    -webkit-text-fill-color: var(--logica-color);
+}
+
+#logica .moduleName {
+    color: var(--logica-color);
+    -webkit-text-stroke: 2px var(--logica-color);
+}
+
+#logica .moduleDescription {
+    color: var(--logica-color);
+}
+
+#logica .expander-button{
+    border: 1px solid var(--logica-color);
+    color: var(--logica-color);
+}
+
+#logica .expander-button:hover{
+    background-color: var(--logica-color);
+    color: black;
+}
+
+#logica .collapsing-button{
+    border: 1px solid var(--logica-color);
+    color: var(--logica-color);
+}
+
+#logica .collapsing-button:hover{
+    background-color: var(--logica-color);
+    color: black;
+}
+
+#logica .subevent-border-animation span:first-child {
+    background: var(--logica-color);
+}
+
+#logica .subevent-border-animation span:last-child:after {
+    background: var(--logica-color);
+}
+
+
+#robotica .moduleName:hover {
+    opacity: 1;
+    -webkit-text-fill-color: var(--robotica-color);
+}
+
+#robotica .moduleName {
+    color: var(--robotica-color);
+    -webkit-text-stroke: 2px var(--robotica-color);
+}
+
+#robotica .moduleDescription {
+    color: var(--robotica-color);
+}
+
+#robotica .expander-button{
+    border: 1px solid var(--robotica-color);
+    color: var(--robotica-color);
+}
+
+#robotica .expander-button:hover{
+    background-color: var(--robotica-color);
+    color: black;
+}
+
+#robotica .collapsing-button{
+    border: 1px solid var(--robotica-color);
+    color: var(--robotica-color);
+}
+
+#robotica .collapsing-button:hover{
+    background-color: var(--robotica-color);
+    color: black;
+}
+
+#robotica .subevent-border-animation span:first-child {
+    background: var(--robotica-color);
+}
+
+#robotica .subevent-border-animation span:last-child:after {
+    background: var(--robotica-color);
+}
+
+
+#structura .moduleName:hover {
+    opacity: 1;
+    -webkit-text-fill-color: var(--structura-color);
+}
+
+#structura .moduleName {
+    color: var(--structura-color);
+    -webkit-text-stroke: 2px var(--structura-color);
+}
+
+#structura .moduleDescription {
+    color: var(--structura-color);
+}
+
+#structura .expander-button{
+    border: 1px solid var(--structura-color);
+    color: var(--structura-color);
+}
+
+#structura .expander-button:hover{
+    background-color: var(--structura-color);
+    color: black;
+}
+
+#structura .collapsing-button{
+    border: 1px solid var(--structura-color);
+    color: var(--structura-color);
+}
+
+#structura .collapsing-button:hover{
+    background-color: var(--structura-color);
+    color: black;
+}
+
+#structura .subevent-border-animation span:first-child {
+    background: var(--structura-color);
+}
+
+#structura .subevent-border-animation span:last-child:after {
+    background: var(--structura-color);
+}
+
+
+#substantia .moduleName:hover {
+    opacity: 1;
+    -webkit-text-fill-color: var(--substantia-color);
+}
+
+#substantia .moduleName {
+    color: var(--substantia-color);
+    -webkit-text-stroke: 2px var(--substantia-color);
+}
+
+#substantia .moduleDescription {
+    color: var(--substantia-color);
+}
+
+#substantia .expander-button{
+    border: 1px solid var(--substantia-color);
+    color: var(--substantia-color);
+}
+
+#substantia .expander-button:hover{
+    background-color: var(--substantia-color);
+    color: black;
+}
+
+#substantia .collapsing-button{
+    border: 1px solid var(--substantia-color);
+    color: var(--substantia-color);
+}
+
+#substantia .collapsing-button:hover{
+    background-color: var(--substantia-color);
+    color: black;
+}
+
+#substantia .subevent-border-animation span:first-child {
+    background: var(--substantia-color);
+}
+
+#substantia .subevent-border-animation span:last-child:after {
+    background: var(--substantia-color);
+}
+
+
+#voltus .moduleName:hover {
+    opacity: 1;
+    -webkit-text-fill-color: var(--voltus-color);
+}
+
+#voltus .moduleName {
+    color: var(--voltus-color);
+    -webkit-text-stroke: 2px var(--voltus-color);
+}
+
+#voltus .moduleDescription {
+    color: var(--voltus-color);
+}
+
+#voltus .expander-button{
+    border: 1px solid var(--voltus-color);
+    color: var(--voltus-color);
+}
+
+#voltus .expander-button:hover{
+    background-color: var(--voltus-color);
+    color: black;
+}
+
+#voltus .collapsing-button{
+    border: 1px solid var(--voltus-color);
+    color: var(--voltus-color);
+}
+
+#voltus .collapsing-button:hover{
+    background-color: var(--voltus-color);
+    color: black;
+}
+
+#voltus .subevent-border-animation span:first-child {
+    background: var(--voltus-color);
+}
+
+#voltus .subevent-border-animation span:last-child:after {
+    background: var(--voltus-color);
+}
