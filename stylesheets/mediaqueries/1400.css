@@ -1,4 +1,10 @@
 @media (min-width: 1400px) {  
+
+    *, *:before, *:after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
     
     .mainText .mainTitle {
         font-size: 30vh;
@@ -67,13 +73,6 @@
         width: 40%;
     }
 
-    .subevent{
-        margin-bottom: 10%;
-        padding: 3vh;
-        height: max-content;
-    }
-
-
     .subeventName {
         font-size: 8vh;
         letter-spacing: 1vh;
@@ -127,5 +126,104 @@
         60% { top: -150px; }
         80% { top: -200px; }
     }
+
+
+    /* Subevents Border Animation */
+    :root {
+        --color-first: hsl(0, 0%, 100%);
+        --color-second: hsla(256, 100%, 16%, 0);
+        --color-third: hsla(0, 0%, 100%, 0);
+        --color-forth: hsl(0, 0%, 100%);
+        --block-width: 30vw;
+        --block-height: 50vh;
+        --border-width: 8px;
+        --border-radius-outer: 0px;
+        --border-radius-inner: calc(var(--border-radius-outer) / 2);
+        --font-plain: "IBM Plex Sans", sans-serif;
+        --font-special: "Fredoka One", sans-serif;
+        box-sizing: border-box;
+        line-height: 1.4;
+      }
+      
+      
+      .subevent-border-animation {
+        width: 100%;
+        height: 100%;
+        -webkit-animation: o-rotate-360 linear 8s infinite;
+                animation: o-rotate-360 linear 8s infinite;
+      }
+
+      .subevent-border-animation span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform: translate(-50%, -50%);
+      }
+
+      .subevent-border-animation span:after {
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 100%;
+      }
+      .subevent-border-animation span:first-child {
+        background: var(--color-first);
+      }
+      .subevent-border-animation span:first-child:after {
+        background: var(--color-second);
+      }
+      .subevent-border-animation span:last-child {
+        background: var(--color-third);
+      }
+      .subevent-border-animation span:last-child:after {
+        background: var(--color-forth);
+      }
+      
+      .subevent-border-container {
+        width: var(--block-width);
+        height: var(--block-height);
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.2);
+        border-radius: var(--border-radius-outer);
+        margin-bottom: 10%;
+      }
+
+      .subevent {
+        width: calc(100% - var(--border-width));
+        height: calc(100% - var(--border-width));
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #000;
+        padding: 1.2rem 1rem 1.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: var(--border-radius-inner);
+      }
+      
+      @-webkit-keyframes o-rotate-360 {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
+      @keyframes o-rotate-360 {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
 
 }
