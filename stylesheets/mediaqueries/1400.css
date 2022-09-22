@@ -190,6 +190,15 @@
         box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.2);
         border-radius: var(--border-radius-outer);
         margin-bottom: 10%;
+        cursor: pointer;
+      }
+
+      .subevent-border-container:hover {
+        transform: scale(1.1);
+        --color-first: hsl(0, 0%, 100%);
+        --color-second:hsl(0, 0%, 100%);
+        --color-third: hsl(0, 0%, 100%);
+        --color-forth: hsla(0, 0%, 100%, 0);
       }
 
       .subevent {
