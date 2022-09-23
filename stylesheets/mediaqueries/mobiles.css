@@ -14,13 +14,18 @@
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-    .mainText .mainTitle {
+    .mainText{
+        margin-left: 10%;
+        overflow: hidden;
+    }
+
+    .mainTitle {
         text-align: center;
         font-size: 8vh;
         letter-spacing: 1.5vh;
     }
 
-    .mainText .subTitle {
+    .subTitle {
         text-align: center;
         padding: 1vh;
         font-size: 2vh;
@@ -29,6 +34,10 @@
     .mainText img {
         height: 3vh;
         margin-bottom: 1vh;
+    }
+
+    .module {
+        margin-bottom: 10%;
     }
 
     .moduleName {
