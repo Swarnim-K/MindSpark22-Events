@@ -15,7 +15,6 @@
 @media (max-width: 575.98px) {
 
     .mainText{
-        margin-left: 10%;
         overflow: hidden;
     }
 
@@ -521,4 +520,10 @@
         
     }
 
+}
+
+@media (max-width: 370px) {
+    .mainText {
+        margin-left: calc((370px - 100vw)/2);
+    }
 }
