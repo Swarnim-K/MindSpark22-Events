@@ -14,10 +14,6 @@
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-    .mainText{
-        overflow: hidden;
-    }
-
     .mainTitle {
         text-align: center;
         font-size: 8vh;
@@ -41,13 +37,13 @@
 
     .moduleName {
         text-align: center;
-        font-size: 7vh;
-        letter-spacing: 1.5vh;
+        font-size: 6vh;
+        letter-spacing: 1vh;
     }
 
     .moduleDescription {
         text-align: center;
-        font-size: 1.5vh;
+        font-size: 1.2vh;
     }
 
     .module-top {
@@ -522,8 +518,8 @@
 
 }
 
-@media (max-width: 370px) {
+/* @media (max-width: 370px) {
     .mainText {
         margin-left: calc((370px - 100vw)/2);
     }
-}
+} */

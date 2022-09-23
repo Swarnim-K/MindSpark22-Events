@@ -28,6 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 99;
+    overflow-x: hidden;
 }
 
 .mainTitle {
@@ -79,6 +80,7 @@ body {
   min-width: 100%;
   object-fit: cover;
   margin-top: 2vh;
+  overflow: hidden;
 }
 
 .moduleName {
