@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 0;
+    z-index: 99;
 }
 
 .mainText .mainTitle {
@@ -60,6 +60,15 @@ body {
   object-fit: contain;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
 .modules {
   display: flex;
   flex-direction: column;
@@ -86,6 +95,7 @@ body {
 
 
 .moduleDescription {
+  padding: 1vw;
   color: #fff;
   position: relative;
   margin-top: 1vh;
@@ -102,6 +112,7 @@ body {
   flex-direction: column;
   min-height: 25vh;
   width: 100%;
+  z-index: 99;
 }
 
 .module-top {
