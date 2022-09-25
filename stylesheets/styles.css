@@ -10,9 +10,9 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Fira Mono", monospace;
+  overflow-x: hidden;
+  background: #090a0f;
 }
-
-
 
 .mainText img {
   text-align: center;
@@ -60,15 +60,6 @@ body {
 .mainText img {
   height: 5vh;
   object-fit: contain;
-}
-
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: cover;
 }
 
 .modules {
@@ -197,18 +188,8 @@ body {
   animation-duration: 1s;
 }
 
-.module-logo-visible{
-  animation-name: fade;
-  animation-duration: 1s;
-  animation-delay: 1s;
-}
-
 .module-logo-hidden{
   display: none;
-  animation-name: fade;
-  animation-duration: 1s;
-  animation-delay: 1s;
-  animation-direction: reverse;
 }
 
 .expander-hidden{
