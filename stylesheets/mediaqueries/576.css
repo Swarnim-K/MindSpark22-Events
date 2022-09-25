@@ -42,6 +42,12 @@
         justify-content: center;
     }
 
+    .expander-button {
+        text-align: center;
+        font-size: 4vh;
+        width: 40%;
+    }
+
     .collapser {
         margin-top: 4vh;
         justify-content: center;
@@ -50,8 +56,8 @@
 
     .collapsing-button {
         text-align: center;
-        font-size: 2vh;
-        width: 30%;
+        font-size: 4vh;
+        width: 40%;
     }
 
     .subeventName {

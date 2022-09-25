@@ -6,12 +6,16 @@
   box-sizing: border-box;
 }
 
+html{
+  background-color: #090a0f;
+}
+
 body {
   display: flex;
   flex-direction: column;
   font-family: "Fira Mono", monospace;
   overflow-x: hidden;
-  background: #090a0f;
+  background-color: #090a0f;
 }
 
 .mainText img {
