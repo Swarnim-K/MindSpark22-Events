@@ -32,7 +32,7 @@
     }
 
     .module {
-        margin-bottom: 10%;
+        margin-bottom: 5vh;
     }
 
     .moduleName {
@@ -61,8 +61,8 @@
 
     .expander-button {
         text-align: center;
-        font-size: 1.2vh;
-        width: 30%;
+        font-size: 2vh;
+        width: 40%;
     }
 
     .collapser {
@@ -73,8 +73,8 @@
 
     .collapsing-button {
         text-align: center;
-        font-size: 1.2vh;
-        width: 30%;
+        font-size: 2vh;
+        width: 40%;
     }
 
     .subeventName {

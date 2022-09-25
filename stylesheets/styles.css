@@ -6,16 +6,22 @@
   box-sizing: border-box;
 }
 
-html{
-  background-color: #090a0f;
-}
-
 body {
   display: flex;
   flex-direction: column;
   font-family: "Fira Mono", monospace;
   overflow-x: hidden;
-  background-color: #090a0f;
+  /* background-color: #090a0f; */
+}
+
+#background{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -99;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
 .mainText img {
@@ -74,7 +80,7 @@ body {
   left: 0;
   min-width: 100%;
   object-fit: cover;
-  margin-top: 2vh;
+  margin-top: 5vh;
   overflow: hidden;
 }
 

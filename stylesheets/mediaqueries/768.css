@@ -22,6 +22,10 @@
         font-size: 2.5vh;
     }
 
+    .module{
+      margin-bottom: 10vh;
+    }
+
     .module-top {
         flex-direction: column;
     }

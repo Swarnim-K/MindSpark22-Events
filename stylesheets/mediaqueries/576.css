@@ -29,6 +29,10 @@
         font-size: 2vh;
     }
 
+    .module{
+        margin-bottom: 10vh;
+    }
+
     .module-top {
         flex-direction: column;
     }
@@ -56,8 +60,8 @@
 
     .collapsing-button {
         text-align: center;
-        font-size: 4vh;
-        width: 40%;
+        font-size: 2vh;
+        width: 30%;
     }
 
     .subeventName {

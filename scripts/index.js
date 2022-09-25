@@ -24,27 +24,15 @@ for (let i = 0; i < collapsingbtn.length; i++) {
     })
 }
 
-const body = document.querySelector("body")
 
-const timeOfTheDay = new Date()
-const hourOFTheDay = timeOfTheDay.getHours()
+const amuzia = document.querySelector("#amuzia")
+const dynamus = document.querySelector("#dynamus")
+const modules = document.querySelectorAll(".module")
 
-const stateOfTheDay = function () {
-    if (hourOFTheDay >= 6 && hourOFTheDay <= 17) {
-        return "Morning";
-    } else if (hourOFTheDay > 17 && hourOFTheDay <= 19) {
-        return "Evening";
-    } else if (hourOFTheDay > 19 && hourOFTheDay <= 24) {
-        return "Night";
-    } else if (hourOFTheDay >= 0 && hourOFTheDay < 6) {
-        return "Night";
+if (window.innerWidth < 992) {
+    for (let i = 0; i < modules.length; i++) {
+        modules[i].attributes.removeNamedItem("data-aos")
     }
 }
 
-if (stateOfTheDay() == "Evening") {
-    body.classList.remove("night")
-    body.classList.add("evening")
-} else if (stateOfTheDay() == "Night") {
-    body.classList.add("night")
-    body.classList.remove("evening")
-}
+
