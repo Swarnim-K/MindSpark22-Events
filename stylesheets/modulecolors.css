@@ -11,7 +11,7 @@
     --voltus-color: #2666CF;
 }
 
-#amuzia .moduleName:hover {
+#amuzia .moduleName {
     opacity: 1;
     -webkit-text-fill-color: var(--amuzia-color);
 }
@@ -57,7 +57,7 @@
     background: var(--amuzia-color);
 }
 
-#dynamus .moduleName:hover {
+#dynamus .moduleName {
     opacity: 1;
     -webkit-text-fill-color: var(--dynamus-color);
 }
@@ -99,7 +99,7 @@
     background: var(--dynamus-color);
 }
 
-#illuminati .moduleName:hover {
+#illuminati .moduleName {
     opacity: 1;
     -webkit-text-fill-color: var(--illuminati-color);
 }
@@ -141,7 +141,7 @@
     background: var(--illuminati-color);
 }
 
-#ingenia .moduleName:hover {
+#ingenia .moduleName {
     opacity: 1;
     -webkit-text-fill-color: var(--ingenia-color);
 }
@@ -184,7 +184,7 @@
 }
 
 
-#interpreta .moduleName:hover {
+#interpreta .moduleName {
     opacity: 1;
     -webkit-text-fill-color: var(--interpreta-color);
 }
@@ -227,7 +227,7 @@
 }
 
 
-#logica .moduleName:hover {
+#logica .moduleName {
     opacity: 1;
     -webkit-text-fill-color: var(--logica-color);
 }
@@ -270,7 +270,7 @@
 }
 
 
-#robotica .moduleName:hover {
+#robotica .moduleName {
     opacity: 1;
     -webkit-text-fill-color: var(--robotica-color);
 }
@@ -313,7 +313,7 @@
 }
 
 
-#structura .moduleName:hover {
+#structura .moduleName {
     opacity: 1;
     -webkit-text-fill-color: var(--structura-color);
 }
@@ -356,7 +356,7 @@
 }
 
 
-#substantia .moduleName:hover {
+#substantia .moduleName {
     opacity: 1;
     -webkit-text-fill-color: var(--substantia-color);
 }
@@ -399,7 +399,7 @@
 }
 
 
-#voltus .moduleName:hover {
+#voltus .moduleName {
     opacity: 1;
     -webkit-text-fill-color: var(--voltus-color);
 }

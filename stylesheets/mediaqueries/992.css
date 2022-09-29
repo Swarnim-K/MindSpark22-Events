@@ -5,6 +5,10 @@
         letter-spacing: 3vh;
     }
 
+    #background{
+      background: radial-gradient(ellipse at bottom, #0c1118 0%, #030406 100%);
+    }
+
     .mainText .subTitle {
         font-size: 3vh;
         letter-spacing: 0.2vh;

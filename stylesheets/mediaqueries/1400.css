@@ -6,6 +6,10 @@
         box-sizing: border-box;
       }
     
+    #background{
+      background: radial-gradient(ellipse at bottom, #0f151e 0%, #030406 100%);
+    }
+    
     .mainText .mainTitle {
         font-size: 30vh;
         letter-spacing: 3vh;
