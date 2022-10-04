@@ -1,13 +1,14 @@
 :root{
     --amuzia-color: #8758FF;
-    --avionica-color: #3FA796;
+    --avionica-color: #49bfab;
     --codifica-color: #D36B00;
     --illuminati-color: #5CB8E4;
-    --hackathon-color: #42855B;
+    --hackathon-color: #61d38b;
     --logica-color: #FFC23C;
     --potentia-color: #2666CF;
-    --struktura-color: #D3ECA7;
     --prodigium-color: #FA2FB5;
+    --struktura-color: #D3ECA7;
+    --substantia-color: #df3e3e;
     --voltus-color: #2666CF;
 }
 
@@ -308,6 +309,48 @@
     background: var(--potentia-color);
 }
 
+#prodigium .moduleName {
+    opacity: 1;
+    -webkit-text-fill-color: var(--prodigium-color);
+}
+
+#prodigium .moduleName {
+    color: var(--prodigium-color);
+    -webkit-text-stroke: 2px var(--prodigium-color);
+}
+
+#prodigium .moduleDescription {
+    color: var(--prodigium-color);
+}
+
+#prodigium .expander-button{
+    border: 1px solid var(--prodigium-color);
+    color: var(--prodigium-color);
+}
+
+#prodigium .expander-button:hover{
+    background-color: var(--prodigium-color);
+    color: black;
+}
+
+#prodigium .collapsing-button{
+    border: 1px solid var(--prodigium-color);
+    color: var(--prodigium-color);
+}
+
+#prodigium .collapsing-button:hover{
+    background-color: var(--prodigium-color);
+    color: black;
+}
+
+#prodigium .subevent-border-animation span:first-child {
+    background: var(--prodigium-color);
+}
+
+#prodigium .subevent-border-animation span:last-child:after {
+    background: var(--prodigium-color);
+}
+
 
 #struktura .moduleName {
     opacity: 1;
@@ -351,49 +394,47 @@
     background: var(--struktura-color);
 }
 
-
-#prodigium .moduleName {
+#substantia .moduleName {
     opacity: 1;
-    -webkit-text-fill-color: var(--prodigium-color);
+    -webkit-text-fill-color: var(--substantia-color);
 }
 
-#prodigium .moduleName {
-    color: var(--prodigium-color);
-    -webkit-text-stroke: 2px var(--prodigium-color);
+#substantia .moduleName {
+    color: var(--substantia-color);
+    -webkit-text-stroke: 2px var(--substantia-color);
 }
 
-#prodigium .moduleDescription {
-    color: var(--prodigium-color);
+#substantia .moduleDescription {
+    color: var(--substantia-color);
 }
 
-#prodigium .expander-button{
-    border: 1px solid var(--prodigium-color);
-    color: var(--prodigium-color);
+#substantia .expander-button{
+    border: 1px solid var(--substantia-color);
+    color: var(--substantia-color);
 }
 
-#prodigium .expander-button:hover{
-    background-color: var(--prodigium-color);
+#substantia .expander-button:hover{
+    background-color: var(--substantia-color);
     color: black;
 }
 
-#prodigium .collapsing-button{
-    border: 1px solid var(--prodigium-color);
-    color: var(--prodigium-color);
+#substantia .collapsing-button{
+    border: 1px solid var(--substantia-color);
+    color: var(--substantia-color);
 }
 
-#prodigium .collapsing-button:hover{
-    background-color: var(--prodigium-color);
+#substantia .collapsing-button:hover{
+    background-color: var(--substantia-color);
     color: black;
 }
 
-#prodigium .subevent-border-animation span:first-child {
-    background: var(--prodigium-color);
+#substantia .subevent-border-animation span:first-child {
+    background: var(--substantia-color);
 }
 
-#prodigium .subevent-border-animation span:last-child:after {
-    background: var(--prodigium-color);
+#substantia .subevent-border-animation span:last-child:after {
+    background: var(--substantia-color);
 }
-
 
 #voltus .moduleName {
     opacity: 1;
