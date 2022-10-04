@@ -24,9 +24,6 @@ for (let i = 0; i < collapsingbtn.length; i++) {
     })
 }
 
-
-const amuzia = document.querySelector("#amuzia")
-const dynamus = document.querySelector("#dynamus")
 const modules = document.querySelectorAll(".module")
 
 if (window.innerWidth < 992) {

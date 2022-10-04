@@ -1,13 +1,13 @@
 :root{
     --amuzia-color: #8758FF;
-    --dynamus-color: #3FA796;
-    --illuminati-color: #D36B00;
-    --ingenia-color: #5CB8E4;
-    --interpreta-color: #42855B;
+    --avionica-color: #3FA796;
+    --codifica-color: #D36B00;
+    --illuminati-color: #5CB8E4;
+    --hackathon-color: #42855B;
     --logica-color: #FFC23C;
-    --robotica-color: #2666CF;
-    --structura-color: #D3ECA7;
-    --substantia-color: #FA2FB5;
+    --potentia-color: #2666CF;
+    --struktura-color: #D3ECA7;
+    --prodigium-color: #FA2FB5;
     --voltus-color: #2666CF;
 }
 
@@ -264,30 +264,61 @@
     }
     
 
-    #dynamus .moduleName {
+    #avionica .moduleName {
         text-align: center;
         font-size: 13vh;
         letter-spacing: 1.5vh;
-        -webkit-text-fill-color: var(--dynamus-color);
+        -webkit-text-fill-color: var(--avionica-color);
         opacity: 1;
     }
 
-    #dynamus .expander-button {
+    #avionica .expander-button {
         text-align: center;
         font-size: 2vh;
         width: 30%;
-        animation-name: scaleandglow-dynamus;
+        animation-name: scaleandglow-avionica;
         animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
     }
 
-    @keyframes scaleandglow-dynamus {
+    @keyframes scaleandglow-avionica {
         0% {
             transform: scale(0.9);
         }
         100% {
-            background-color: var(--dynamus-color);
+            background-color: var(--avionica-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+
+    #codifica .moduleName {
+        text-align: center;
+        font-size: 13vh;
+        letter-spacing: 1.5vh;
+        -webkit-text-fill-color: var(--codifica-color);
+        opacity: 1;
+    }
+
+    #codifica .expander-button {
+        text-align: center;
+        font-size: 2vh;
+        width: 30%;
+        animation-name: scaleandglow-codifica;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-codifica {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--codifica-color);
             color: #000;
             transform: scale(1.1);
         }
@@ -326,61 +357,30 @@
     }
     
 
-    #ingenia .moduleName {
+    #hackathon .moduleName {
         text-align: center;
         font-size: 13vh;
         letter-spacing: 1.5vh;
-        -webkit-text-fill-color: var(--ingenia-color);
+        -webkit-text-fill-color: var(--hackathon-color);
         opacity: 1;
     }
 
-    #ingenia .expander-button {
+    #hackathon .expander-button {
         text-align: center;
         font-size: 2vh;
         width: 30%;
-        animation-name: scaleandglow-ingenia;
+        animation-name: scaleandglow-hackathon;
         animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
     }
 
-    @keyframes scaleandglow-ingenia {
+    @keyframes scaleandglow-hackathon {
         0% {
             transform: scale(0.9);
         }
         100% {
-            background-color: var(--ingenia-color);
-            color: #000;
-            transform: scale(1.1);
-        }
-        
-    }
-    
-
-    #interpreta .moduleName {
-        text-align: center;
-        font-size: 13vh;
-        letter-spacing: 1.5vh;
-        -webkit-text-fill-color: var(--interpreta-color);
-        opacity: 1;
-    }
-
-    #interpreta .expander-button {
-        text-align: center;
-        font-size: 2vh;
-        width: 30%;
-        animation-name: scaleandglow-interpreta;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-    }
-
-    @keyframes scaleandglow-interpreta {
-        0% {
-            transform: scale(0.9);
-        }
-        100% {
-            background-color: var(--interpreta-color);
+            background-color: var(--hackathon-color);
             color: #000;
             transform: scale(1.1);
         }
@@ -419,30 +419,30 @@
     }
     
 
-    #robotica .moduleName {
+    #potentia .moduleName {
         text-align: center;
         font-size: 13vh;
         letter-spacing: 1.5vh;
-        -webkit-text-fill-color: var(--robotica-color);
+        -webkit-text-fill-color: var(--potentia-color);
         opacity: 1;
     }
 
-    #robotica .expander-button {
+    #potentia .expander-button {
         text-align: center;
         font-size: 2vh;
         width: 30%;
-        animation-name: scaleandglow-robotica;
+        animation-name: scaleandglow-potentia;
         animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
     }
 
-    @keyframes scaleandglow-robotica {
+    @keyframes scaleandglow-potentia {
         0% {
             transform: scale(0.9);
         }
         100% {
-            background-color: var(--robotica-color);
+            background-color: var(--potentia-color);
             color: #000;
             transform: scale(1.1);
         }
@@ -450,30 +450,30 @@
     }
     
 
-    #structura .moduleName {
+    #struktura .moduleName {
         text-align: center;
         font-size: 13vh;
         letter-spacing: 1.5vh;
-        -webkit-text-fill-color: var(--structura-color);
+        -webkit-text-fill-color: var(--struktura-color);
         opacity: 1;
     }
 
-    #structura .expander-button {
+    #struktura .expander-button {
         text-align: center;
         font-size: 2vh;
         width: 30%;
-        animation-name: scaleandglow-structura;
+        animation-name: scaleandglow-struktura;
         animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
     }
 
-    @keyframes scaleandglow-structura {
+    @keyframes scaleandglow-struktura {
         0% {
             transform: scale(0.9);
         }
         100% {
-            background-color: var(--structura-color);
+            background-color: var(--struktura-color);
             color: #000;
             transform: scale(1.1);
         }
@@ -481,30 +481,30 @@
     }
     
 
-    #substantia .moduleName {
+    #prodigium .moduleName {
         text-align: center;
         font-size: 13vh;
         letter-spacing: 1.5vh;
-        -webkit-text-fill-color: var(--substantia-color);
+        -webkit-text-fill-color: var(--prodigium-color);
         opacity: 1;
     }
 
-    #substantia .expander-button {
+    #prodigium .expander-button {
         text-align: center;
         font-size: 2vh;
         width: 30%;
-        animation-name: scaleandglow-substantia;
+        animation-name: scaleandglow-prodigium;
         animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
     }
 
-    @keyframes scaleandglow-substantia {
+    @keyframes scaleandglow-prodigium {
         0% {
             transform: scale(0.9);
         }
         100% {
-            background-color: var(--substantia-color);
+            background-color: var(--prodigium-color);
             color: #000;
             transform: scale(1.1);
         }

@@ -1,13 +1,13 @@
 :root{
     --amuzia-color: #8758FF;
-    --dynamus-color: #3FA796;
-    --illuminati-color: #D36B00;
-    --ingenia-color: #5CB8E4;
-    --interpreta-color: #42855B;
+    --avionica-color: #3FA796;
+    --codifica-color: #D36B00;
+    --illuminati-color: #5CB8E4;
+    --hackathon-color: #42855B;
     --logica-color: #FFC23C;
-    --robotica-color: #2666CF;
-    --structura-color: #D3ECA7;
-    --substantia-color: #FA2FB5;
+    --potentia-color: #2666CF;
+    --struktura-color: #D3ECA7;
+    --prodigium-color: #FA2FB5;
     --voltus-color: #2666CF;
 }
 
@@ -23,10 +23,6 @@
 
 #amuzia .moduleDescription {
     color: var(--amuzia-color);
-}
-
-#amuzia .module-logo img {
-    filter: invert(53%) sepia(98%) saturate(4606%) hue-rotate(236deg) brightness(98%) contrast(106%);
 }
 
 #amuzia .expander-button{
@@ -57,46 +53,88 @@
     background: var(--amuzia-color);
 }
 
-#dynamus .moduleName {
+#avionica .moduleName {
     opacity: 1;
-    -webkit-text-fill-color: var(--dynamus-color);
+    -webkit-text-fill-color: var(--avionica-color);
 }
 
-#dynamus .moduleName {
-    color: var(--dynamus-color);
-    -webkit-text-stroke: 2px var(--dynamus-color);
+#avionica .moduleName {
+    color: var(--avionica-color);
+    -webkit-text-stroke: 2px var(--avionica-color);
 }
 
-#dynamus .moduleDescription {
-    color: var(--dynamus-color);
+#avionica .moduleDescription {
+    color: var(--avionica-color);
 }
 
-#dynamus .expander-button{
-    border: 1px solid var(--dynamus-color);
-    color: var(--dynamus-color);
+#avionica .expander-button{
+    border: 1px solid var(--avionica-color);
+    color: var(--avionica-color);
 }
 
-#dynamus .expander-button:hover{
-    background-color: var(--dynamus-color);
+#avionica .expander-button:hover{
+    background-color: var(--avionica-color);
     color: black;
 }
 
-#dynamus .collapsing-button{
-    border: 1px solid var(--dynamus-color);
-    color: var(--dynamus-color);
+#avionica .collapsing-button{
+    border: 1px solid var(--avionica-color);
+    color: var(--avionica-color);
 }
 
-#dynamus .collapsing-button:hover{
-    background-color: var(--dynamus-color);
+#avionica .collapsing-button:hover{
+    background-color: var(--avionica-color);
     color: black;
 }
 
-#dynamus .subevent-border-animation span:first-child {
-    background: var(--dynamus-color);
+#avionica .subevent-border-animation span:first-child {
+    background: var(--avionica-color);
 }
 
-#dynamus .subevent-border-animation span:last-child:after {
-    background: var(--dynamus-color);
+#avionica .subevent-border-animation span:last-child:after {
+    background: var(--avionica-color);
+}
+
+#codifica .moduleName {
+    opacity: 1;
+    -webkit-text-fill-color: var(--codifica-color);
+}
+
+#codifica .moduleName {
+    color: var(--codifica-color);
+    -webkit-text-stroke: 2px var(--codifica-color);
+}
+
+#codifica .moduleDescription {
+    color: var(--codifica-color);
+}
+
+#codifica .expander-button{
+    border: 1px solid var(--codifica-color);
+    color: var(--codifica-color);
+}
+
+#codifica .expander-button:hover{
+    background-color: var(--codifica-color);
+    color: black;
+}
+
+#codifica .collapsing-button{
+    border: 1px solid var(--codifica-color);
+    color: var(--codifica-color);
+}
+
+#codifica .collapsing-button:hover{
+    background-color: var(--codifica-color);
+    color: black;
+}
+
+#codifica .subevent-border-animation span:first-child {
+    background: var(--codifica-color);
+}
+
+#codifica .subevent-border-animation span:last-child:after {
+    background: var(--codifica-color);
 }
 
 #illuminati .moduleName {
@@ -141,89 +179,47 @@
     background: var(--illuminati-color);
 }
 
-#ingenia .moduleName {
+
+#hackathon .moduleName {
     opacity: 1;
-    -webkit-text-fill-color: var(--ingenia-color);
+    -webkit-text-fill-color: var(--hackathon-color);
 }
 
-#ingenia .moduleName {
-    color: var(--ingenia-color);
-    -webkit-text-stroke: 2px var(--ingenia-color);
+#hackathon .moduleName {
+    color: var(--hackathon-color);
+    -webkit-text-stroke: 2px var(--hackathon-color);
 }
 
-#ingenia .moduleDescription {
-    color: var(--ingenia-color);
+#hackathon .moduleDescription {
+    color: var(--hackathon-color);
 }
 
-#ingenia .expander-button{
-    border: 1px solid var(--ingenia-color);
-    color: var(--ingenia-color);
+#hackathon .expander-button{
+    border: 1px solid var(--hackathon-color);
+    color: var(--hackathon-color);
 }
 
-#ingenia .expander-button:hover{
-    background-color: var(--ingenia-color);
+#hackathon .expander-button:hover{
+    background-color: var(--hackathon-color);
     color: black;
 }
 
-#ingenia .collapsing-button{
-    border: 1px solid var(--ingenia-color);
-    color: var(--ingenia-color);
+#hackathon .collapsing-button{
+    border: 1px solid var(--hackathon-color);
+    color: var(--hackathon-color);
 }
 
-#ingenia .collapsing-button:hover{
-    background-color: var(--ingenia-color);
+#hackathon .collapsing-button:hover{
+    background-color: var(--hackathon-color);
     color: black;
 }
 
-#ingenia .subevent-border-animation span:first-child {
-    background: var(--ingenia-color);
+#hackathon .subevent-border-animation span:first-child {
+    background: var(--hackathon-color);
 }
 
-#ingenia .subevent-border-animation span:last-child:after {
-    background: var(--ingenia-color);
-}
-
-
-#interpreta .moduleName {
-    opacity: 1;
-    -webkit-text-fill-color: var(--interpreta-color);
-}
-
-#interpreta .moduleName {
-    color: var(--interpreta-color);
-    -webkit-text-stroke: 2px var(--interpreta-color);
-}
-
-#interpreta .moduleDescription {
-    color: var(--interpreta-color);
-}
-
-#interpreta .expander-button{
-    border: 1px solid var(--interpreta-color);
-    color: var(--interpreta-color);
-}
-
-#interpreta .expander-button:hover{
-    background-color: var(--interpreta-color);
-    color: black;
-}
-
-#interpreta .collapsing-button{
-    border: 1px solid var(--interpreta-color);
-    color: var(--interpreta-color);
-}
-
-#interpreta .collapsing-button:hover{
-    background-color: var(--interpreta-color);
-    color: black;
-}
-
-#interpreta .subevent-border-animation span:first-child {
-    background: var(--interpreta-color);
-}
-
-#interpreta .subevent-border-animation span:last-child:after {
-    background: var(--interpreta-color);
+#hackathon .subevent-border-animation span:last-child:after {
+    background: var(--hackathon-color);
 }
 
 
@@ -270,132 +266,132 @@
 }
 
 
-#robotica .moduleName {
+#potentia .moduleName {
     opacity: 1;
-    -webkit-text-fill-color: var(--robotica-color);
+    -webkit-text-fill-color: var(--potentia-color);
 }
 
-#robotica .moduleName {
-    color: var(--robotica-color);
-    -webkit-text-stroke: 2px var(--robotica-color);
+#potentia .moduleName {
+    color: var(--potentia-color);
+    -webkit-text-stroke: 2px var(--potentia-color);
 }
 
-#robotica .moduleDescription {
-    color: var(--robotica-color);
+#potentia .moduleDescription {
+    color: var(--potentia-color);
 }
 
-#robotica .expander-button{
-    border: 1px solid var(--robotica-color);
-    color: var(--robotica-color);
+#potentia .expander-button{
+    border: 1px solid var(--potentia-color);
+    color: var(--potentia-color);
 }
 
-#robotica .expander-button:hover{
-    background-color: var(--robotica-color);
+#potentia .expander-button:hover{
+    background-color: var(--potentia-color);
     color: black;
 }
 
-#robotica .collapsing-button{
-    border: 1px solid var(--robotica-color);
-    color: var(--robotica-color);
+#potentia .collapsing-button{
+    border: 1px solid var(--potentia-color);
+    color: var(--potentia-color);
 }
 
-#robotica .collapsing-button:hover{
-    background-color: var(--robotica-color);
+#potentia .collapsing-button:hover{
+    background-color: var(--potentia-color);
     color: black;
 }
 
-#robotica .subevent-border-animation span:first-child {
-    background: var(--robotica-color);
+#potentia .subevent-border-animation span:first-child {
+    background: var(--potentia-color);
 }
 
-#robotica .subevent-border-animation span:last-child:after {
-    background: var(--robotica-color);
+#potentia .subevent-border-animation span:last-child:after {
+    background: var(--potentia-color);
 }
 
 
-#structura .moduleName {
+#struktura .moduleName {
     opacity: 1;
-    -webkit-text-fill-color: var(--structura-color);
+    -webkit-text-fill-color: var(--struktura-color);
 }
 
-#structura .moduleName {
-    color: var(--structura-color);
-    -webkit-text-stroke: 2px var(--structura-color);
+#struktura .moduleName {
+    color: var(--struktura-color);
+    -webkit-text-stroke: 2px var(--struktura-color);
 }
 
-#structura .moduleDescription {
-    color: var(--structura-color);
+#struktura .moduleDescription {
+    color: var(--struktura-color);
 }
 
-#structura .expander-button{
-    border: 1px solid var(--structura-color);
-    color: var(--structura-color);
+#struktura .expander-button{
+    border: 1px solid var(--struktura-color);
+    color: var(--struktura-color);
 }
 
-#structura .expander-button:hover{
-    background-color: var(--structura-color);
+#struktura .expander-button:hover{
+    background-color: var(--struktura-color);
     color: black;
 }
 
-#structura .collapsing-button{
-    border: 1px solid var(--structura-color);
-    color: var(--structura-color);
+#struktura .collapsing-button{
+    border: 1px solid var(--struktura-color);
+    color: var(--struktura-color);
 }
 
-#structura .collapsing-button:hover{
-    background-color: var(--structura-color);
+#struktura .collapsing-button:hover{
+    background-color: var(--struktura-color);
     color: black;
 }
 
-#structura .subevent-border-animation span:first-child {
-    background: var(--structura-color);
+#struktura .subevent-border-animation span:first-child {
+    background: var(--struktura-color);
 }
 
-#structura .subevent-border-animation span:last-child:after {
-    background: var(--structura-color);
+#struktura .subevent-border-animation span:last-child:after {
+    background: var(--struktura-color);
 }
 
 
-#substantia .moduleName {
+#prodigium .moduleName {
     opacity: 1;
-    -webkit-text-fill-color: var(--substantia-color);
+    -webkit-text-fill-color: var(--prodigium-color);
 }
 
-#substantia .moduleName {
-    color: var(--substantia-color);
-    -webkit-text-stroke: 2px var(--substantia-color);
+#prodigium .moduleName {
+    color: var(--prodigium-color);
+    -webkit-text-stroke: 2px var(--prodigium-color);
 }
 
-#substantia .moduleDescription {
-    color: var(--substantia-color);
+#prodigium .moduleDescription {
+    color: var(--prodigium-color);
 }
 
-#substantia .expander-button{
-    border: 1px solid var(--substantia-color);
-    color: var(--substantia-color);
+#prodigium .expander-button{
+    border: 1px solid var(--prodigium-color);
+    color: var(--prodigium-color);
 }
 
-#substantia .expander-button:hover{
-    background-color: var(--substantia-color);
+#prodigium .expander-button:hover{
+    background-color: var(--prodigium-color);
     color: black;
 }
 
-#substantia .collapsing-button{
-    border: 1px solid var(--substantia-color);
-    color: var(--substantia-color);
+#prodigium .collapsing-button{
+    border: 1px solid var(--prodigium-color);
+    color: var(--prodigium-color);
 }
 
-#substantia .collapsing-button:hover{
-    background-color: var(--substantia-color);
+#prodigium .collapsing-button:hover{
+    background-color: var(--prodigium-color);
     color: black;
 }
 
-#substantia .subevent-border-animation span:first-child {
-    background: var(--substantia-color);
+#prodigium .subevent-border-animation span:first-child {
+    background: var(--prodigium-color);
 }
 
-#substantia .subevent-border-animation span:last-child:after {
-    background: var(--substantia-color);
+#prodigium .subevent-border-animation span:last-child:after {
+    background: var(--prodigium-color);
 }
 
 
