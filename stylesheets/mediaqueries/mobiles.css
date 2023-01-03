@@ -27,7 +27,7 @@
     }
 
     .mainText img {
-        height: 3vh;
+        height: 7vh;
         margin-bottom: 1vh;
     }
 
@@ -85,6 +85,22 @@
     .subeventDescription {
         font-size: 1.5vh;
     }
+
+    .subeventLogo img{
+        width: 9vh
+    }
+
+    .explore{
+        margin-top: 1vh;
+      }
+      
+      .explore-button {
+        font-size: 1.5vh;
+      }
+      
+      .explore img{
+        height: 2vh;
+      }
 
     .rotating-text {
         font: normal 20px/30px Montserrat, sans-serif;
@@ -161,7 +177,7 @@
         --color-third: #000000;
         --color-forth: hsl(0, 0%, 100%);
         --block-width: 80vw;
-        --block-height: 30vh;
+        --block-height: 40vh;
         --border-width: 8px;
         --border-radius-outer: 0px;
         --border-radius-inner: calc(var(--border-radius-outer) / 2);
@@ -180,7 +196,6 @@
         border-radius: var(--border-radius-outer);
         margin-bottom: 10%;
         border: 1px solid white;;
-        cursor: pointer;
     }
     
 
@@ -285,6 +300,24 @@
         }
         100% {
             background-color: var(--amuzia-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    #substantia .expander-button {
+        animation-name: scaleandglow-substantia;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-substantia {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--substantia-color);
             color: #000;
             transform: scale(1.1);
         }

@@ -1,3 +1,4 @@
+
 :root{
     --amuzia-color: #8758FF;
     --avionica-color: #49bfab;
@@ -7,6 +8,7 @@
     --logica-color: #FFC23C;
     --potentia-color: #2666CF;
     --prodigium-color: #FA2FB5;
+    --robotica-color: #7DE5ED;
     --struktura-color: #D3ECA7;
     --substantia-color: #df3e3e;
     --voltus-color: #2666CF;
@@ -349,6 +351,49 @@
 
 #prodigium .subevent-border-animation span:last-child:after {
     background: var(--prodigium-color);
+}
+
+
+#robotica .moduleName {
+    opacity: 1;
+    -webkit-text-fill-color: var(--robotica-color);
+}
+
+#robotica .moduleName {
+    color: var(--robotica-color);
+    -webkit-text-stroke: 2px var(--robotica-color);
+}
+
+#robotica .moduleDescription {
+    color: var(--robotica-color);
+}
+
+#robotica .expander-button{
+    border: 1px solid var(--robotica-color);
+    color: var(--robotica-color);
+}
+
+#robotica .expander-button:hover{
+    background-color: var(--robotica-color);
+    color: black;
+}
+
+#robotica .collapsing-button{
+    border: 1px solid var(--robotica-color);
+    color: var(--robotica-color);
+}
+
+#robotica .collapsing-button:hover{
+    background-color: var(--robotica-color);
+    color: black;
+}
+
+#robotica .subevent-border-animation span:first-child {
+    background: var(--robotica-color);
+}
+
+#robotica .subevent-border-animation span:last-child:after {
+    background: var(--robotica-color);
 }
 
 

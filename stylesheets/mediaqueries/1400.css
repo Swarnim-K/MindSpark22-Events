@@ -16,7 +16,7 @@
     }
 
     .mainText img {
-        height: 5vh;
+        height: 10vh;
         margin-bottom: 1vh;
     }
 
@@ -42,6 +42,16 @@
         letter-spacing: 1.5vh;
         -webkit-text-stroke: 2.5px #ffffff;
     }
+
+    #codifica .moduleName{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #centiro {
+      font-size: 4vh;
+    }
+
 
     .moduleDescription {
         text-align: center;
@@ -79,7 +89,7 @@
 
     .subeventName {
         font-size: 7.5vh;
-        letter-spacing: 1vh;
+        letter-spacing: 0.5vh;
     }
 
     .subeventDescription {
@@ -90,6 +100,14 @@
 
     .subeventLogo img{
         width: 15vh
+    }
+
+    .explore{
+      margin-top: 4vh;
+    }
+    
+    .explore img{
+      height: 3vh;
     }
 
     .rotating-text {
@@ -194,7 +212,6 @@
         box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.2);
         border-radius: var(--border-radius-outer);
         margin-bottom: 10%;
-        cursor: pointer;
       }
 
       .subevent-border-container:hover {

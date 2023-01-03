@@ -32,7 +32,7 @@ body {
 
 .mainText img {
   text-align: center;
-  height: 5vh;
+  height: 8vh;
   object-fit: contain;
 }
 
@@ -166,6 +166,10 @@ body {
   align-items: center;
 }
 
+.subevent-border-container{
+  cursor: default;
+}
+
 .subeventLogo img {
   width: 10vh;
   filter: invert(100);
@@ -197,6 +201,23 @@ body {
 
 .subeventDescription:hover {
   transform: scale(1.1);
+}
+
+.explore{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.explore-button {
+  text-decoration: none;
+  color: #fff;
+}
+
+.explore img{
+  filter: invert(100);
 }
 
 .subevents-visible {
