@@ -44,12 +44,7 @@
     }
 
     #codifica .moduleName{
-      display: flex;
-      flex-direction: column;
-    }
-
-    #centiro {
-      font-size: 4vh;
+      font-size: 11vh;
     }
 
 

@@ -1,13 +1,15 @@
 :root{
     --amuzia-color: #8758FF;
-    --avionica-color: #3FA796;
+    --avionica-color: #49bfab;
     --codifica-color: #D36B00;
     --illuminati-color: #5CB8E4;
-    --hackathon-color: #42855B;
+    --hackathon-color: #61d38b;
     --logica-color: #FFC23C;
     --potentia-color: #2666CF;
-    --struktura-color: #D3ECA7;
     --prodigium-color: #FA2FB5;
+    --robotica-color: #7DE5ED;
+    --struktura-color: #D3ECA7;
+    --substantia-color: #df3e3e;
     --voltus-color: #2666CF;
 }
 
@@ -16,7 +18,7 @@
 
     .mainTitle {
         text-align: center;
-        font-size: 8vh;
+        font-size: 7vh;
         letter-spacing: 1.5vh;
     }
 
@@ -518,6 +520,30 @@
         }
         100% {
             background-color: var(--prodigium-color);
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+    }
+    
+    #robotica .moduleName {
+        -webkit-text-fill-color: var(--robotica-color);
+        opacity: 1;
+    }
+
+    #robotica .expander-button {
+        animation-name: scaleandglow-robotica;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes scaleandglow-robotica {
+        0% {
+            transform: scale(0.9);
+        }
+        100% {
+            background-color: var(--robotica-color);
             color: #000;
             transform: scale(1.1);
         }

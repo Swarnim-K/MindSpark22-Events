@@ -43,6 +43,10 @@
         -webkit-text-stroke: 2.5px #ffffff;
     }
 
+    #codifica .moduleName{
+      font-size: 9.5vh;
+    }
+
     .moduleDescription {
         text-align: center;
         font-size: 2.5vh;
